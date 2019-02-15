@@ -39,13 +39,14 @@ html {
   align-items: center;
 }
 
+.grayify {
+  color: gray;
+}
+
 .nav-bottombar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-.nav-bottombar #grayify {
-  color: gray;
 }
 .nav-bottombar a {
   text-decoration: none;
@@ -84,13 +85,52 @@ html {
 }
 
 .below-bars {
-  border: 1px solid darkgreen;
+  display: flex;
+  flex-direction: column;
 }
 
 .left-stories-bar {
-  border: 1px solid black;
   max-width: 705px;
   max-height: 1745px;
+}
+
+.bill-weld-story {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid gray;
+}
+.bill-weld-story .left-text {
+  padding-top: 3%;
+  padding-left: 3%;
+}
+.bill-weld-story .left-text a {
+  color: black;
+}
+
+.candidates-story {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid gray;
+}
+.candidates-story .left-text {
+  padding-top: 3%;
+  padding-left: 3%;
+}
+.candidates-story .left-text a {
+  color: black;
+}
+
+.mueller-story {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid gray;
+}
+.mueller-story .left-text {
+  padding-top: 3%;
+  padding-left: 3%;
+}
+.mueller-story .left-text a {
+  color: black;
 }
 
 .right-interactives-bar {

@@ -9,6 +9,20 @@ html {
   align-items: center;
 }
 
+@mixin leftBars {
+  padding-top: 3%;
+  padding-left: 3%;
+  a {
+    color: black;
+  }
+}
+
+@mixin rowify {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid gray;
+}
+
 .navbar {
   height: 90px;
   hr {
@@ -43,15 +57,14 @@ html {
   }
 }
 
-
+.grayify {
+  color: gray;
+}
 
 .nav-bottombar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  #grayify {
-    color: gray;
-  }
   a {
     text-decoration: none;
     color: black;
@@ -85,18 +98,38 @@ html {
   #lp-text {
     font-size: 30px;
     text-emphasis: bold;
-
   }
 }
 
 .below-bars {
-  border: 1px solid darkgreen;
+  display: flex;
+  flex-direction: column;
 }
 
 .left-stories-bar {
-  border: 1px solid black;
   max-width: 705px;
   max-height: 1745px;
+}
+
+.bill-weld-story {
+  @include rowify;
+  .left-text {
+    @include leftBars;
+  }
+}
+
+.candidates-story {
+  @include rowify;
+  .left-text {
+    @include leftBars;
+  }
+}
+
+.mueller-story {
+  @include rowify;
+  .left-text {
+    @include leftBars;
+  }
 }
 
 .right-interactives-bar {
