@@ -1,11 +1,14 @@
 html {
   padding: 0 10%;
   max-width: 1024px;
+  margin: 0 auto;
 }
 
 .navbar {
   border: 1px solid red;
   height: 105px;
+  display: flex;
+  flex-direction: column;
 }
 
 .central-banner {
@@ -20,9 +23,11 @@ html {
 .left-stories-bar {
   border: 1px solid black;
   max-width: 705px;
+  max-height: 1745px;
 }
 
 .right-interactives-bar {
   border: 1px solid purple;
   width: 320px;
+  max-height: 1130px;
 }
