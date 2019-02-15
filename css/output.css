@@ -14,6 +14,14 @@ html {
   justify-content: space-between;
   align-items: center;
 }
+.nav-topbar #fivethirtyeight-logo {
+  max-height: 40px;
+  max-width: 200px;
+}
+.nav-topbar #abc-logo {
+  max-height: 25px;
+  max-width: 120px;
+}
 .nav-topbar a {
   color: black;
   border: 0.5px black solid;
@@ -35,7 +43,17 @@ html {
   justify-content: space-between;
 }
 .nav-bottombar a {
-  decoration: none;
+  text-decoration: none;
+  color: black;
+}
+.nav-bottombar a:hover {
+  color: gray;
+  transition: 0.3s;
+}
+.nav-bottombar .hang-right {
+  display: flex;
+  align-items: center;
+  padding-left: 12%;
 }
 
 .central-banner {

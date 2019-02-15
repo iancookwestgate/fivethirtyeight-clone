@@ -4,6 +4,11 @@ html {
   margin: 0 auto;
 }
 
+@mixin goRight {
+  display: flex;
+  align-items: center;
+}
+
 .navbar {
   border: 1px solid red;
   height: 105px;
@@ -13,6 +18,14 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  #fivethirtyeight-logo {
+    max-height: 40px;
+    max-width: 200px;
+  }
+  #abc-logo {
+    max-height: 25px;
+    max-width: 120px;
+  }
   a {
     color: black;
     border: 0.5px black solid;
@@ -24,8 +37,7 @@ html {
     transition: 0.3s;
     }
   .hang-right {
-    display: flex;
-    align-items: center;
+    @include goRight;
   }
 }
 
@@ -34,7 +46,16 @@ html {
   flex-direction: row;
   justify-content: space-between;
   a {
-    decoration: none;
+    text-decoration: none;
+    color: black;
+  }
+  a:hover {
+    color: gray;
+    transition: 0.3s;
+  }
+  .hang-right {
+    @include goRight;
+    padding-left: 12%;
   }
 }
 
