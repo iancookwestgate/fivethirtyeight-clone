@@ -1,3 +1,30 @@
+html {
+  padding: 0 10%;
+  max-width: 1024px;
+}
 
+.navbar {
+  border: 1px solid red;
+  height: 105px;
+}
+
+.central-banner {
+  border: 1px solid blue;
+  max-height: 530px;
+}
+
+.below-bars {
+  border: 1px solid darkgreen;
+}
+
+.left-stories-bar {
+  border: 1px solid black;
+  max-width: 705px;
+}
+
+.right-interactives-bar {
+  border: 1px solid purple;
+  width: 320px;
+}
 
 /*# sourceMappingURL=output.css.map */
