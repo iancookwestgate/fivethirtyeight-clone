@@ -10,7 +10,23 @@ html {
   display: flex;
   flex-direction: column;
   .nav-topbar {
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a {
+      color: black;
+      border: 0.5px black solid;
+      padding: 5px;
+    }
+    a:hover {
+      background-color: black;
+      color: white;
+      transition: 0.3s;
+      }
+    .hang-right {
+      display: flex;
+      align-items: center;
+    }
   }
 }
 
