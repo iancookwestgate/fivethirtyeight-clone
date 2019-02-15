@@ -7,27 +7,35 @@ html {
 .navbar {
   border: 1px solid red;
   height: 105px;
-  display: flex;
-  flex-direction: column;
 }
-.navbar .nav-topbar {
+
+.nav-topbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.navbar .nav-topbar a {
+.nav-topbar a {
   color: black;
   border: 0.5px black solid;
   padding: 5px;
 }
-.navbar .nav-topbar a:hover {
+.nav-topbar a:hover {
   background-color: black;
   color: white;
   transition: 0.3s;
 }
-.navbar .nav-topbar .hang-right {
+.nav-topbar .hang-right {
   display: flex;
   align-items: center;
+}
+
+.nav-bottombar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav-bottombar a {
+  decoration: none;
 }
 
 .central-banner {
