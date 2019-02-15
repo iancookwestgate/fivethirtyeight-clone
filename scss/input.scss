@@ -1,5 +1,5 @@
 html {
-  padding: 0 10%;
+  padding: 1% 10%;
   max-width: 1024px;
   margin: 0 auto;
 }
@@ -11,7 +11,7 @@ html {
 
 .navbar {
   border: 1px solid red;
-  height: 105px;
+  height: 90px;
 }
 
 .nav-topbar {
@@ -41,10 +41,17 @@ html {
   }
 }
 
+hr {
+  border: 1.2px solid black;
+}
+
 .nav-bottombar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  #grayify {
+    color: gray;
+  }
   a {
     text-decoration: none;
     color: black;
@@ -62,6 +69,16 @@ html {
 .central-banner {
   border: 1px solid blue;
   max-height: 530px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  .central-text {
+    padding-left: 3%;
+    #author {
+      color: black;
+    }
+  }
 }
 
 .below-bars {
