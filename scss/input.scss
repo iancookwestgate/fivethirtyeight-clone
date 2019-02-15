@@ -74,6 +74,7 @@ html {
   a {
     text-decoration: none;
     color: black;
+    margin: 0 10px;
   }
   a:hover {
     color: gray;
@@ -81,7 +82,7 @@ html {
   }
   .hang-right {
     @include goRight;
-    padding-left: 12%;
+    margin-left: 50px;
   }
 }
 
@@ -182,9 +183,39 @@ html {
     background-color: black;
     color: white;
     transition: 0.3s;
-    }
+  }
   .center-me {
     text-align: center;
     padding-bottom: 7%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .initial-mobile-disappear {
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  html {
+    padding: 2%;
+  }
+  .nav-bottombar {
+    display: none;
+  }
+  .central-banner {
+    flex-direction: column;
+    align-items: baseline;
+    margin-top: -10%;
+  }
+  .left-stories-bar {
+    padding-top: 2%;
+  }
+  .left-image img {
+    height: 50%;
+    width: 90%;
+  }
+  .right-interactives-bar {
+    display: none;
   }
 }

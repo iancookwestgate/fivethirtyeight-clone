@@ -51,6 +51,7 @@ html {
 .nav-bottombar a {
   text-decoration: none;
   color: black;
+  margin: 0 10px;
 }
 .nav-bottombar a:hover {
   color: gray;
@@ -59,7 +60,7 @@ html {
 .nav-bottombar .hang-right {
   display: flex;
   align-items: center;
-  padding-left: 12%;
+  margin-left: 50px;
 }
 
 .central-banner {
@@ -196,6 +197,40 @@ html {
 .right-interactives-bar .center-me {
   text-align: center;
   padding-bottom: 7%;
+}
+
+@media screen and (max-width: 768px) {
+  .initial-mobile-disappear {
+    visibility: hidden;
+  }
+}
+@media screen and (max-width: 425px) {
+  html {
+    padding: 2%;
+  }
+
+  .nav-bottombar {
+    display: none;
+  }
+
+  .central-banner {
+    flex-direction: column;
+    align-items: baseline;
+    margin-top: -10%;
+  }
+
+  .left-stories-bar {
+    padding-top: 2%;
+  }
+
+  .left-image img {
+    height: 50%;
+    width: 90%;
+  }
+
+  .right-interactives-bar {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=output.css.map */
