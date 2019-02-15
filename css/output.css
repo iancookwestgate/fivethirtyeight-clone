@@ -5,8 +5,10 @@ html {
 }
 
 .navbar {
-  border: 1px solid red;
   height: 90px;
+}
+.navbar hr {
+  border: 1.2px solid black;
 }
 
 .nav-topbar {
@@ -37,10 +39,6 @@ html {
   align-items: center;
 }
 
-hr {
-  border: 1.2px solid black;
-}
-
 .nav-bottombar {
   display: flex;
   flex-direction: row;
@@ -64,7 +62,6 @@ hr {
 }
 
 .central-banner {
-  border: 1px solid blue;
   max-height: 530px;
   display: flex;
   flex-direction: row;
@@ -75,6 +72,15 @@ hr {
 }
 .central-banner .central-text #author {
   color: black;
+}
+
+.latest-politics {
+  padding-top: 6%;
+  border-bottom: 1.2px solid black;
+}
+.latest-politics #lp-text {
+  font-size: 30px;
+  text-emphasis: bold;
 }
 
 .below-bars {

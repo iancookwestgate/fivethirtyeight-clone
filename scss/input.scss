@@ -10,8 +10,10 @@ html {
 }
 
 .navbar {
-  border: 1px solid red;
   height: 90px;
+  hr {
+    border: 1.2px solid black;
+  }
 }
 
 .nav-topbar {
@@ -41,9 +43,7 @@ html {
   }
 }
 
-hr {
-  border: 1.2px solid black;
-}
+
 
 .nav-bottombar {
   display: flex;
@@ -67,17 +67,25 @@ hr {
 }
 
 .central-banner {
-  border: 1px solid blue;
   max-height: 530px;
   display: flex;
   flex-direction: row;
   align-items: center;
-
   .central-text {
     padding-left: 3%;
     #author {
       color: black;
     }
+  }
+}
+
+.latest-politics {
+  padding-top: 6%;
+  border-bottom: 1.2px solid black;
+  #lp-text {
+    font-size: 30px;
+    text-emphasis: bold;
+
   }
 }
 
