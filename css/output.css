@@ -87,24 +87,27 @@ html {
 .below-bars {
   display: flex;
   flex-direction: row;
+  padding-top: 1%;
 }
 
 .left-stories-bar {
   max-width: 705px;
   max-height: 1745px;
+  padding-right: 2%;
 }
 
 .bill-weld-story {
   display: flex;
   flex-direction: row;
   border-bottom: 1px solid gray;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 .bill-weld-story img {
   max-width: 207px;
   max-height: 155px;
 }
 .bill-weld-story .left-text {
-  padding-top: 3%;
   padding-left: 3%;
 }
 .bill-weld-story .left-text a {
@@ -115,13 +118,14 @@ html {
   display: flex;
   flex-direction: row;
   border-bottom: 1px solid gray;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 .candidates-story img {
   max-width: 207px;
   max-height: 155px;
 }
 .candidates-story .left-text {
-  padding-top: 3%;
   padding-left: 3%;
 }
 .candidates-story .left-text a {
@@ -132,26 +136,48 @@ html {
   display: flex;
   flex-direction: row;
   border-bottom: 1px solid gray;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 .mueller-story img {
   max-width: 207px;
   max-height: 155px;
 }
 .mueller-story .left-text {
-  padding-top: 3%;
   padding-left: 3%;
 }
 .mueller-story .left-text a {
   color: black;
 }
 
+.trump-story {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid gray;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.trump-story img {
+  max-width: 207px;
+  max-height: 155px;
+}
+.trump-story .left-text {
+  padding-left: 3%;
+}
+.trump-story .left-text a {
+  color: black;
+}
+
 .right-interactives-bar {
   width: 320px;
   max-height: 1130px;
+  border-left: 1px solid gray;
+  padding-left: 2%;
+  padding-top: 2%;
 }
 .right-interactives-bar img {
-  max-width: 300px;
-  max-height: 200px;
+  width: 300px;
+  height: 200px;
 }
 .right-interactives-bar a {
   color: black;
@@ -166,6 +192,7 @@ html {
 }
 .right-interactives-bar .center-me {
   text-align: center;
+  padding-bottom: 7%;
 }
 
 /*# sourceMappingURL=output.css.map */
