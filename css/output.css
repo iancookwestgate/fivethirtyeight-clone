@@ -86,7 +86,7 @@ html {
 
 .below-bars {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .left-stories-bar {
@@ -98,6 +98,10 @@ html {
   display: flex;
   flex-direction: row;
   border-bottom: 1px solid gray;
+}
+.bill-weld-story img {
+  max-width: 207px;
+  max-height: 155px;
 }
 .bill-weld-story .left-text {
   padding-top: 3%;
@@ -112,6 +116,10 @@ html {
   flex-direction: row;
   border-bottom: 1px solid gray;
 }
+.candidates-story img {
+  max-width: 207px;
+  max-height: 155px;
+}
 .candidates-story .left-text {
   padding-top: 3%;
   padding-left: 3%;
@@ -125,6 +133,10 @@ html {
   flex-direction: row;
   border-bottom: 1px solid gray;
 }
+.mueller-story img {
+  max-width: 207px;
+  max-height: 155px;
+}
 .mueller-story .left-text {
   padding-top: 3%;
   padding-left: 3%;
@@ -134,9 +146,26 @@ html {
 }
 
 .right-interactives-bar {
-  border: 1px solid purple;
   width: 320px;
   max-height: 1130px;
+}
+.right-interactives-bar img {
+  max-width: 300px;
+  max-height: 200px;
+}
+.right-interactives-bar a {
+  color: black;
+  border: 0.5px black solid;
+  padding: 5px;
+  text-decoration: none;
+}
+.right-interactives-bar a:hover {
+  background-color: black;
+  color: white;
+  transition: 0.3s;
+}
+.right-interactives-bar .center-me {
+  text-align: center;
 }
 
 /*# sourceMappingURL=output.css.map */
