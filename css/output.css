@@ -206,7 +206,11 @@ html {
 
 @media screen and (max-width: 768px) {
   .initial-mobile-disappear {
-    visibility: hidden;
+    display: none;
+  }
+
+  .nav-bottombar {
+    justify-content: flex-start;
   }
 }
 @media screen and (max-width: 425px) {
