@@ -28,6 +28,7 @@ html {
   color: black;
   border: 0.5px black solid;
   padding: 5px;
+  text-decoration: none;
 }
 .nav-topbar a:hover {
   background-color: black;
@@ -37,6 +38,10 @@ html {
 .nav-topbar .hang-right {
   display: flex;
   align-items: center;
+}
+
+.hidden-menu {
+  display: none;
 }
 
 .grayify {
@@ -209,6 +214,15 @@ html {
     padding: 2%;
   }
 
+  #abc-logo {
+    display: none;
+  }
+
+  .hidden-menu {
+    display: block;
+    margin-left: 10%;
+  }
+
   .nav-bottombar {
     display: none;
   }
@@ -217,6 +231,10 @@ html {
     flex-direction: column;
     align-items: baseline;
     margin-top: -10%;
+  }
+  .central-banner .central-text {
+    width: 100%;
+    padding-left: 1%;
   }
 
   .left-stories-bar {
