@@ -86,11 +86,14 @@ html {
 }
 
 .central-banner {
-  max-height: 530px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  img {
+    width: 100%;
+  }
   .central-text {
+    width: 25%;
     padding-left: 3%;
     #author {
       color: black;

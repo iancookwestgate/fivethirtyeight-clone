@@ -63,12 +63,15 @@ html {
 }
 
 .central-banner {
-  max-height: 530px;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
+.central-banner img {
+  width: 100%;
+}
 .central-banner .central-text {
+  width: 25%;
   padding-left: 3%;
 }
 .central-banner .central-text #author {
