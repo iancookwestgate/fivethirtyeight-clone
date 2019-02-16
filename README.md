@@ -41,7 +41,7 @@ Spec: When the site viewport is decreased in size to 425 pixels in width, a numb
 Alternatively, click this gh-pages link to view it directly in the web browser of your choice: https://iwestgate931.github.io/fivethirtyeight-clone/
 
 ## Known Bugs
-* No known bugs at this time.
+* GH-Pages: When loaded through gh-pages, three of the images (FiveThirtyEight's Logo, ABC News' Logo, and the popularity chart) do not appear to work correctly despite working fine and connecting properly when loaded from a cloned repo.
 
 ## Technologies Used
 * HTML
