@@ -23,14 +23,22 @@ Spec: When the site viewport is decreased in size to 768 pixels in width, the "P
   - Clone post-768px width: ![Clone after the change to 768 pixels](img/clone-post-768.PNG)
 
 Spec: When the site viewport is decreased in size to 425 pixels in width, a number of elements change: The ABC Logo is replaced by a previously hidden menu, the padding of the HTML is slightly adjusted, the remainder of the bottom navbar is removed, the central banner section is changed from a row to a column to fit the viewport, the interactives bar that was previously on the right (below "Latest Politics") disappears, and the images on the left (below "Latest Politics") shrink down in size. All other elements remain. The site continues to replicate the front page of FiveThirtyEight Politics as closely as possible.
-  - Original pre-425px width: ![FiveThirtyEight Politics before the change to 425 pixels](img/original-pre-425.PNG)
-  - Clone pre-425px width: ![Clone before the change to 425 pixels](img/clone-pre-425.PNG)
-  - Original pre-425px scrolled down: ![FiveThirtyEight Politics before the change to 425 pixels, scrolled down](img/original-pre-425-scroll.PNG)
-  - Clone pre-425px scrolled down: ![Clone before the change to 425 pixels, scrolled down](img/clone-pre-425-scroll.PNG)
-  - Original post-425px width: ![FiveThirtyEight Politics after the change to 425 pixels](img/original-post-425.PNG)
-  - Clone post-425px width: ![Clone after the change to 425 pixels](img/clone-post-425.PNG)
-  - Original post-425px scrolled down: ![FiveThirtyEight Politics after the change to 425 pixels](img/original-post-425-scroll.PNG)
-  - Clone post-425px scrolled down: ![Clone after the change to 425 pixels, scrolled down](img/clone-post-425-scroll.PNG)
+  - Original pre-425px width:
+  ![FiveThirtyEight Politics before the change to 425 pixels](img/original-pre-425.PNG)
+  - Clone pre-425px width:
+  ![Clone before the change to 425 pixels](img/clone-pre-425.PNG)
+  - Original pre-425px scrolled down:
+  ![FiveThirtyEight Politics before the change to 425 pixels, scrolled down](img/original-pre-425-scroll.PNG)
+  - Clone pre-425px scrolled down:
+  ![Clone before the change to 425 pixels, scrolled down](img/clone-pre-425-scroll.PNG)
+  - Original post-425px width:
+  ![FiveThirtyEight Politics after the change to 425 pixels](img/original-post-425.PNG)
+  - Clone post-425px width:
+  ![Clone after the change to 425 pixels](img/clone-post-425.PNG)
+  - Original post-425px scrolled down:
+  ![FiveThirtyEight Politics after the change to 425 pixels](img/original-post-425-scroll.PNG)
+  - Clone post-425px scrolled down:
+  ![Clone after the change to 425 pixels, scrolled down](img/clone-post-425-scroll.PNG)
 
 ## Setup/Installation Requirements
 
